@@ -21,7 +21,7 @@ function setup() {
   slider3 = createSlider(-100, 200, 10);
   slider3.position(100, 180);
   createCanvas(displayWidth, displayHeight);
-  bg = loadImage("cloud.jpg");
+//   bg = loadImage("cloud.jpg");
   flock = new Flock();
   // Add an initial set of boids into the system
   for (var i = 0; i < 100; i++) {
