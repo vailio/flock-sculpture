@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-  background(bg);
+//   background(bg);
   flock.run();
   s1 = "Flocking"
   fill(200);
