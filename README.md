@@ -1,3 +1,3 @@
 # flock-sculpture
 
-https://vailio.github.io/flock-sculpture/.
+https://vailio.github.io/swarm-sculpture/
