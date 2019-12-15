@@ -34,18 +34,18 @@ function setup() {
 function draw() {
 //   background(bg);
   flock.run();
-  s1 = "Flocking"
+  s1 = "Swarm"
   fill(51);
   textSize(30);
   textFont("Helvetica")
   text(s1, 100, 100, 300, 700);
   stroke(126);
   //s2 = "Flocks of birds and schools of fish have a distinctive style of behavior - with a fluidity and a seeming intelligence that far transcends the abilities of their members. The higher dimension patterns we observe are emergent. Flocking is one such emergent property.";
-//   s2 = "Complexity is where things get interesting and there no one is necessarily controlling everything that's happening and It's great!";
-//   fill(200);
-//   textSize(14);
-//   textFont("Helvetica")
-//   text(s2, 100, 205, 300, 700); // Text wraps within text box
+  s2 = "Complexity is where things get interesting and there no one is necessarily controlling everything that's happening and It's great!";
+  fill(200);
+  textSize(14);
+  textFont("Helvetica")
+  text(s2, 100, 205, 300, 700); // Text wraps within text box
 }
 
 // Add a new boid into the System
